@@ -7,6 +7,9 @@ import {
   ListItem,
   SkillContainer,
   Dot,
+  Tech,
+  Stars,
+  Star,
 } from './styles';
 
 export default function Skills() {
@@ -20,27 +23,74 @@ export default function Skills() {
           <List>
             <ListItem>
               <Dot />
-              Java
+              <Tech>
+                Java
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              C#
+              <Tech>
+                C#
+                <Stars>
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              HTML5
+              <Tech>
+                HTML5
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              CSS3
+              <Tech>
+                CSS3
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              Javascript (ES6+)
+              <Tech>
+                Javascript (ES6+)
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              SQL/No-SQL
+              <Tech>
+                SQL
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
           </List>
         </Skill>
@@ -51,35 +101,95 @@ export default function Skills() {
           <List>
             <ListItem>
               <Dot />
-              Nodejs
+              <Tech>
+                Nodejs
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              Jest
+              <Tech>
+                Jest
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              Express
+              <Tech>
+                Express
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              Vuejs
+              <Tech>
+                Vuejs
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              Reactjs
+              <Tech>
+                Reactjs
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              Materialize
+              <Tech>
+                Materialize
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              Quasar
+              <Tech>
+                Quasar
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              Bootstrap
+              <Tech>
+                Bootstrap
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
           </List>
         </Skill>
@@ -90,19 +200,47 @@ export default function Skills() {
           <List>
             <ListItem>
               <Dot />
-              MySQL
+              <Tech>
+                MySQL
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              PostgreSQL
+              <Tech>
+                PostgreSQL
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              MongoDB
+              <Tech>
+                MongoDB
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              Redis
+              <Tech>
+                Redis
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
           </List>
         </Skill>
@@ -113,23 +251,59 @@ export default function Skills() {
           <List>
             <ListItem>
               <Dot />
-              Git/Github
+              <Tech>
+                Git/Github
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              Bash
+              <Tech>
+                Bash/Terminal
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              AWS
+              <Tech>
+                AWS
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              CI/CD
+              <Tech>
+                CI/CD
+                <Stars>
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
             <ListItem>
               <Dot />
-              Docker
+              <Tech>
+                Docker/Docker Compose
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
             </ListItem>
           </List>
         </Skill>
