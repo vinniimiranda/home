@@ -13,15 +13,18 @@ export default function Header({ xAxis, setXAxis }) {
           Home
         </NavItem>
         <NavItem active={xAxis === 100} onClick={() => setXAxis(100)}>
-          Skills
+          About
         </NavItem>
         <NavItem active={xAxis === 200} onClick={() => setXAxis(200)}>
-          Expiriences
+          Skills
         </NavItem>
         <NavItem active={xAxis === 300} onClick={() => setXAxis(300)}>
-          Cases
+          Expiriences
         </NavItem>
         <NavItem active={xAxis === 400} onClick={() => setXAxis(400)}>
+          Cases
+        </NavItem>
+        <NavItem active={xAxis === 500} onClick={() => setXAxis(500)}>
           Contact
         </NavItem>
       </Nav>
