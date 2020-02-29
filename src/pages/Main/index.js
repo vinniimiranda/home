@@ -1,7 +1,19 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Header from '../../components/Header';
+import Home from '../../components/Home';
+import Skills from '../../components/Skills/index';
 
-// import { Container } from './styles';
+import { Container, Slider } from './styles';
 
 export default function Main() {
-  return <h1>Hello world!</h1>;
+  const [xAxis, setXAxis] = useState(0);
+  return (
+    <Container>
+      <Header xAxis={xAxis} setXAxis={setXAxis} />
+      <Slider xAxis={xAxis}>
+        <Home />
+        <Skills />
+      </Slider>
+    </Container>
+  );
 }
