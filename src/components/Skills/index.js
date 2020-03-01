@@ -24,27 +24,6 @@ export default function Skills() {
             <ListItem>
               <Dot />
               <Tech>
-                Java
-                <Stars>
-                  <Star />
-                  <Star />
-                  <Star />
-                </Stars>
-              </Tech>
-            </ListItem>
-            <ListItem>
-              <Dot />
-              <Tech>
-                C#
-                <Stars>
-                  <Star />
-                  <Star />
-                </Stars>
-              </Tech>
-            </ListItem>
-            <ListItem>
-              <Dot />
-              <Tech>
                 HTML5
                 <Stars>
                   <Star />
@@ -81,6 +60,49 @@ export default function Skills() {
                 </Stars>
               </Tech>
             </ListItem>
+            <ListItem>
+              <Dot />
+              <Tech>
+                Java
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
+            </ListItem>
+            <ListItem>
+              <Dot />
+              <Tech>
+                C#
+                <Stars>
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
+            </ListItem>
+            <ListItem>
+              <Dot />
+              <Tech>
+                Python
+                <Stars>
+                  <Star />
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
+            </ListItem>
+            <ListItem>
+              <Dot />
+              <Tech>
+                PHP
+                <Stars>
+                  <Star />
+                  <Star />
+                </Stars>
+              </Tech>
+            </ListItem>
+
             <ListItem>
               <Dot />
               <Tech>
@@ -203,6 +225,7 @@ export default function Skills() {
               <Tech>
                 MySQL
                 <Stars>
+                  <Star />
                   <Star />
                   <Star />
                   <Star />

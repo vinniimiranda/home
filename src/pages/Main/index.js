@@ -5,6 +5,7 @@ import Skills from '../../components/Skills/index';
 
 import { Container, Slider } from './styles';
 import About from '../../components/About';
+import Cases from '../../components/Cases';
 
 export default function Main() {
   const [xAxis, setXAxis] = useState(0);
@@ -15,6 +16,7 @@ export default function Main() {
         <Home />
         <About />
         <Skills />
+        <Cases />
       </Slider>
     </Container>
   );

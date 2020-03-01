@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+
   padding: 3rem;
   min-width: 100%;
   flex-wrap: wrap;
@@ -34,5 +34,9 @@ export const Container = styled.div`
     &:hover {
       color: #999;
     }
+  }
+
+  @media (min-width: 1440px) {
+    justify-content: center;
   }
 `;

@@ -19,10 +19,10 @@ export default function Header({ xAxis, setXAxis }) {
           Skills
         </NavItem>
         <NavItem active={xAxis === 300} onClick={() => setXAxis(300)}>
-          Expiriences
+          Cases
         </NavItem>
         <NavItem active={xAxis === 400} onClick={() => setXAxis(400)}>
-          Cases
+          Expiriences
         </NavItem>
         <NavItem active={xAxis === 500} onClick={() => setXAxis(500)}>
           Contact

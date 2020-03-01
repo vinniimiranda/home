@@ -19,6 +19,10 @@ export const SkillContainer = styled.div`
   justify-content: space-between;
   align-items: baseline;
   flex-wrap: wrap;
+
+  @media (min-width: 1440px) {
+    justify-content: space-evenly;
+  }
 `;
 export const Skill = styled.div`
   h2 {
