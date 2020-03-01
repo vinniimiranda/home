@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Colors } from '../../styles/colors';
 
 export const Container = styled.div`
   display: flex;
@@ -8,12 +9,12 @@ export const Container = styled.div`
   min-width: 100%;
   flex-wrap: wrap;
   h1 {
-    color: #01dbcc;
+    color: ${Colors.primary};
     text-transform: uppercase;
     font-size: 3rem;
   }
   h2 {
-    background-color: #01dbcc;
+    background-color: ${Colors.primary};
     width: 100%;
     padding: 1rem;
     margin-bottom: 1rem;

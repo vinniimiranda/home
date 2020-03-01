@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Colors } from '../../styles/colors';
 
 export const Container = styled.div`
   display: flex;
@@ -8,17 +9,22 @@ export const Container = styled.div`
 
   img {
     width: 262px;
+    transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s;
     height: 262px;
-    filter: drop-shadow(7px 7px #01dbcc);
+    box-shadow: 7px 7px 0px ${Colors.primary};
     margin-bottom: 2rem;
+
+    &:hover {
+      box-shadow: 10px 10px 0px ${Colors.primary};
+    }
   }
   h1 {
-    color: #01dbcc;
+    color: ${Colors.primary};
     text-transform: uppercase;
     font-size: 3rem;
   }
   h2 {
-    background-color: #01dbcc;
+    background-color: ${Colors.primary};
     width: 100%;
     padding: 1rem;
     margin-bottom: 1rem;
@@ -56,6 +62,6 @@ export const Information = styled.div`
     color: #999;
   }
   .value {
-    color: #01dbcc;
+    color: ${Colors.primary};
   }
 `;

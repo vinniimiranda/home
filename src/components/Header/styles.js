@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Colors } from '../../styles/colors';
 
 export const Container = styled.div`
   display: flex;
@@ -8,7 +9,9 @@ export const Container = styled.div`
 `;
 
 export const Main = styled.div`
-  color: #fff;
+  > h1 {
+    color: ${Colors.primary};
+  }
   text-transform: uppercase;
 `;
 export const Nav = styled.ul`
@@ -31,13 +34,13 @@ export const NavItem = styled.li`
   padding-bottom: 0.1rem;
   transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.5s;
   &:hover {
-    color: #01dbcc;
-    border-bottom: 4px solid #01dbcc;
+    color: ${Colors.primary};
+    border-bottom: 4px solid ${Colors.primary};
   }
 
   ${props =>
     props.active
-      ? `color: #01dbcc;
-    border-bottom: 4px solid #01dbcc;`
+      ? `color: ${Colors.primary};
+    border-bottom: 4px solid ${Colors.primary};`
       : ``}
 `;

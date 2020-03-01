@@ -14,7 +14,7 @@ export default function Cases() {
 
       <List>
         <ListItem>
-          <h1>B3</h1>
+          <h1>B3 WEB</h1>
           <img src={b3IMG} alt="bg" />
           <p>
             Minim anim id proident duis est et ipsum in occaecat commodo

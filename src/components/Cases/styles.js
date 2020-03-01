@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { Colors } from '../../styles/colors';
 
 export const Container = styled.div`
   display: flex;
@@ -14,7 +15,7 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
-  color: #01dbcc;
+  color: ${Colors.primary};
   text-transform: uppercase;
   font-size: 3rem;
 `;
@@ -28,7 +29,7 @@ export const List = styled.div`
 `;
 
 export const ListItem = styled.div`
-  border: 4px solid #01dbcc;
+  border: 4px solid ${Colors.primary};
 
   display: flex;
   flex-direction: column;
@@ -42,7 +43,7 @@ export const ListItem = styled.div`
   border: 4px solid transparent;
   &:hover {
     cursor: pointer;
-    border: 4px solid #01dbcc;
+    border: 4px solid ${Colors.primary};
     transform: rotateZ(1deg);
     p {
       color: #999;

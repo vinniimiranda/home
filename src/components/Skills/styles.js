@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import { MdStar } from 'react-icons/md';
+import { Colors } from '../../styles/colors';
 
 export const Container = styled.div`
   display: flex;
@@ -8,7 +9,7 @@ export const Container = styled.div`
   min-width: 100%;
   flex-wrap: wrap;
   h1 {
-    color: #01dbcc;
+    color: ${Colors.primary};
     text-transform: uppercase;
     font-size: 3rem;
   }
@@ -28,7 +29,7 @@ export const Skill = styled.div`
   h2 {
     font-weight: bold;
     font-size: 1.2rem;
-    color: #01dbcc;
+    color: ${Colors.primary};
   }
   flex-wrap: wrap;
 
@@ -45,7 +46,7 @@ export const Stars = styled.div`
   margin-left: 1rem;
 `;
 export const Star = styled(MdStar)`
-  color: #01dbcc;
+  color: ${Colors.primary};
   transition: all cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s;
   transform: scale(0);
   margin-left: 0.3rem;
@@ -56,7 +57,7 @@ export const Dot = styled.div`
 
   margin-right: 1rem;
 
-  background-color: #01dbcc;
+  background-color: ${Colors.primary};
 
   transition: transform cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s;
 `;
@@ -77,8 +78,8 @@ export const ListItem = styled.li`
   min-width: 20rem;
   transition: all cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s;
   &:hover {
-    color: #01dbcc;
-    border-bottom-color: #01dbcc;
+    color: ${Colors.primary};
+    border-bottom-color: ${Colors.primary};
 
     ${Dot} {
       transform: scale(1.5) rotate(90deg);
