@@ -19,77 +19,44 @@ export const Title = styled.h1`
   font-size: 3rem;
 `;
 
-export const TechList = styled.div`
+export const List = styled.div`
   display: flex;
+  flex-wrap: wrap;
+
+  align-items: center;
   justify-content: space-evenly;
-  align-items: center;
-  flex-wrap: wrap;
 `;
 
-export const Techs = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 10rem;
-  margin: 1rem 1rem 0 0;
-  padding: 1rem;
-  transition: all cubic-bezier(0.47, 0, 0.745, 0.715) 0.1s;
-  box-shadow: 3px 3px 0px #01dbcc;
-  &:hover {
-    box-shadow: 10px 10px 0px #01dbcc;
-  }
+export const ListItem = styled.div`
+  border: 4px solid #01dbcc;
 
-  h2 {
-    color: #01dbcc;
-
-    font-size: 1.5rem;
-  }
-  span {
-    color: #bababa;
-    font-size: 1rem;
-  }
-`;
-
-export const RepositoryList = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-`;
-
-export const RepositoryListItem = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  width: 14rem;
-  height: 6rem;
-  margin: 1rem 1rem 0 0;
+  justify-content: space-evenly;
   padding: 1rem;
-  text-transform: capitalize;
+  margin: 1rem;
+  max-width: 35rem;
 
   transition: all cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s;
   border: 4px solid transparent;
   &:hover {
     cursor: pointer;
     border: 4px solid #01dbcc;
-    transform: rotateZ(2deg);
+    transform: rotateZ(1deg);
+    p {
+      color: #999;
+    }
   }
-  h3 {
-    color: #bababa;
+  img {
+    width: 20rem;
+  }
 
-    font-size: 0.9rem;
+  h1 {
+    color: #fff;
   }
   p {
-    color: #01dbcc;
-    font-weight: bold;
-  }
-
-  span {
-    color: #666;
-    font-size: 0.7rem;
-    white-space: nowrap;
+    font-size: 1rem;
+    color: #333;
   }
 `;

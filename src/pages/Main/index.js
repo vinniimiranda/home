@@ -8,7 +8,7 @@ import About from '../../components/About';
 import Cases from '../../components/Cases';
 
 export default function Main() {
-  const [xAxis, setXAxis] = useState(0);
+  const [xAxis, setXAxis] = useState(300);
   return (
     <Container>
       <Header xAxis={xAxis} setXAxis={setXAxis} />
