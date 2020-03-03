@@ -41,10 +41,32 @@ export const ListItem = styled.div`
 
   transition: all cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s;
   border: 4px solid transparent;
+
+  @keyframes wiggle {
+    0% {
+      transform: rotateZ(-3deg);
+    }
+    25% {
+      transform: rotateZ(3deg);
+    }
+    50% {
+      transform: rotateZ(-3deg);
+    }
+    75% {
+      transform: rotateZ(3deg);
+    }
+
+    100% {
+      transform: rotateY(0deg);
+    }
+  }
+
   &:hover {
     cursor: pointer;
     border: 4px solid ${Colors.primary};
-    transform: rotateZ(1deg);
+    animation: wiggle;
+    animation-timing-function: cubic-bezier(0.47, 0, 0.745, 0.715);
+    animation-duration: 0.4s;
     p {
       color: #999;
     }
@@ -59,5 +81,27 @@ export const ListItem = styled.div`
   p {
     font-size: 1rem;
     color: #333;
+  }
+`;
+
+export const Links = styled.div`
+  display: flex;
+
+  a {
+    margin-left: 1rem;
+    margin-top: 1rem;
+    svg {
+      width: 2rem;
+      height: 2rem;
+      fill: #999;
+      transform: scale(0.75);
+      transition: all cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s;
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(1);
+        fill: ${Colors.primary};
+      }
+    }
   }
 `;

@@ -64,4 +64,20 @@ export const Information = styled.div`
   .value {
     color: ${Colors.primary};
   }
+
+  a {
+    svg {
+      width: 2rem;
+      height: 2rem;
+      fill: #999;
+      transform: scale(0.75);
+      transition: all cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s;
+
+      &:hover {
+        cursor: pointer;
+        transform: scale(1);
+        fill: #fff;
+      }
+    }
+  }
 `;
