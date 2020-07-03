@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Infos, Information } from './styles';
 
-export default function About() {
+export default function About () {
   return (
     <Container>
       <img
@@ -29,6 +29,10 @@ export default function About() {
         <Information>
           <span className="key">E-mail: </span>
           <span className="value">flaviovmiranda@hotmail.com</span>
+        </Information>
+        <Information>
+          <span className="key">Phone </span>
+          <span className="value">+55 (11) 97636-2040</span>
         </Information>
       </Infos>
 
