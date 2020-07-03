@@ -7,8 +7,8 @@ import { Container, Slider } from './styles';
 import About from '../../components/About';
 import Cases from '../../components/Cases';
 
-export default function Main() {
-  const [xAxis, setXAxis] = useState(0);
+export default function Main () {
+  const [xAxis, setXAxis] = useState(200);
   return (
     <Container>
       <Header xAxis={xAxis} setXAxis={setXAxis} />

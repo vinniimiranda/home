@@ -6,7 +6,7 @@ export const Container = styled.div`
   padding: 3rem;
   min-width: 100%;
   flex-wrap: wrap;
-
+  align-self: flex-start;
   img {
     width: 262px;
     transition: all cubic-bezier(0.785, 0.135, 0.15, 0.86) 0.3s;
@@ -16,6 +16,11 @@ export const Container = styled.div`
 
     &:hover {
       box-shadow: 10px 10px 0px ${Colors.primary};
+    }
+
+    @media (max-width: 425px) {
+      margin-left: auto;
+      margin-right: auto;
     }
   }
   h1 {
@@ -42,22 +47,31 @@ export const Container = styled.div`
     color: #666;
     font-size: 1rem;
     transition: color ease 0.4s;
+    margin-top: 1rem;
     &:hover {
       color: #999;
     }
   }
+
+  @media (max-width: 425px) {
+     
+      padding: 1rem;
+    }
 `;
 
 export const Infos = styled.div`
   display: flex;
   flex-direction: column;
+  
 `;
 export const Information = styled.div`
-  /* text-transform: uppercase; */
+ 
   font-weight: bold;
   margin-left: 2rem;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
   font-size: 1rem;
+  align-self: flex-start;
+  word-break: break-all;
   .key {
     color: #999;
   }
@@ -80,4 +94,8 @@ export const Information = styled.div`
       }
     }
   }
+  @media (max-width: 425px) {
+      margin: .3rem 0  .3rem;
+    }
+
 `;
