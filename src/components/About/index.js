@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaLinkedin, FaTwitter, FaYoutube } from 'react-icons/fa';
 
 import { Container, Infos, Information } from './styles';
 
@@ -34,45 +35,40 @@ export default function About () {
           <span className="key">Phone </span>
           <span className="value">+55 (11) 97636-2040</span>
         </Information>
+        <Information>
+          <div>
+            <a href="https://github.com/vinniimiranda" target="_blank" without rel="noopener noreferrer">
+              <FaGithub size={30} />
+            </a>
+            <a href="https://www.linkedin.com/in/flavio-vinicius-miranda-b8718b80/" target="_blank" without rel="noopener noreferrer" color="#0077b5">
+              <FaLinkedin size={30} />
+            </a>
+            <a href="https://twitter.com/vinniimiranda" target="_blank" without rel="noopener noreferrer">
+              <FaTwitter size={30} />
+            </a>
+            <a href="https://www.youtube.com/channel/UCMTpCNBy6UNm9-XSRuRZ9GQ" target="_blank" without rel="noopener noreferrer">
+              <FaYoutube size={30} />
+            </a>
+          </div>
+        </Information>
       </Infos>
 
       <p>
-        Esse magna amet mollit veniam aliquip fugiat cillum sint. Dolor elit
-        voluptate amet adipisicing irure laboris minim fugiat. Aliquip tempor do
-        anim id veniam enim ullamco. Esse occaecat amet reprehenderit dolor
-        fugiat pariatur. Aute ipsum proident id voluptate incididunt esse sunt
-        esse. Deserunt cillum duis ea magna. Ex et labore do eu nisi veniam
-        minim. Tempor exercitation duis fugiat et magna exercitation cupidatat
-        ut. Quis ad ex sit reprehenderit ullamco pariatur in incididunt aute.
-        Fugiat pariatur fugiat dolore nulla proident commodo Lorem cupidatat
-        sunt excepteur incididunt. Enim sint pariatur nulla consectetur mollit
-        duis velit consequat. Voluptate culpa labore sit duis. Nostrud
-        adipisicing velit non non ipsum dolor sunt amet nisi reprehenderit elit
-        id. Nostrud dolore mollit ea quis enim voluptate commodo dolore magna.
-        Consequat tempor id nisi cillum ad ea nulla irure esse et exercitation
-        id ullamco. Aliqua eu magna pariatur cillum pariatur irure esse
-        voluptate duis laboris qui culpa quis. Eu eu sit in qui anim elit
-        veniam. Duis qui consequat ex quis ea. Nostrud eiusmod magna est commodo
-        non. Proident velit eu est minim. Excepteur tempor ullamco irure aliqua
-        incididunt fugiat eiusmod. Sunt ullamco mollit nulla magna enim. Esse
-        veniam dolore non mollit cupidatat mollit ut deserunt elit laborum est
-        in. In enim consequat ea cillum veniam minim nisi culpa dolore esse qui
-        est. Eu pariatur ea adipisicing laboris aliqua voluptate laboris nisi
-        laboris culpa commodo irure. Sit occaecat enim esse ut do occaecat do
-        laboris ipsum amet Lorem consequat id. Nostrud fugiat ad ea ut id mollit
-        amet eiusmod amet ipsum. Labore in veniam consequat non occaecat labore
-        cupidatat. Labore officia ad ad et mollit ad et dolore eiusmod cupidatat
-        adipisicing. Commodo dolor dolor magna non consequat tempor. Pariatur ad
-        in minim est sint. Voluptate anim dolore eiusmod deserunt ad consectetur
-        qui esse adipisicing magna ad incididunt elit. Duis minim occaecat
-        nostrud laboris excepteur incididunt anim officia ea ullamco minim ex.
-        Velit labore anim in consectetur nisi deserunt sint aliqua incididunt
-        quis. Nulla aliquip et esse qui labore mollit enim aute nulla
-        reprehenderit do sunt et. Elit do quis laboris labore. Dolor culpa
-        commodo dolore duis. Culpa pariatur cillum veniam non commodo aliquip ea
-        sit. Qui consequat quis ipsum nulla excepteur proident esse laboris non
-        ad ad. Voluptate ad consequat dolor nisi est tempor laboris do anim. Et
-        sit incididunt minim tempor.
+        <p>
+          I like to solve problems, challenge myself and use my skills to the fullest.
+      </p>
+        <p>
+          What I love most about Javascript is the way that we can create a fullstack application, easy, fast and powerful.
+      </p>
+        <p>
+          I have been working with Javascript since 2016 and with Nodejs since 2017, my first contact with Javascript Frameworks was Vuejs (2017).
+      </p>
+        <p>
+          I met React in 2018, since then I haven't stopped using it (currently I work with it every day).
+      </p>
+        <p>
+          Recently I am studying about software architecture, to take my applications to a level of excellence, I believe that less is more, and that with the right architecture we can create better and better applications that facilitate people's daily lives
+      </p>
       </p>
     </Container>
   );
