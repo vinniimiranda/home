@@ -12,7 +12,7 @@ import {
   Star,
 } from './styles';
 
-export default function Skills() {
+export default function Skills () {
   return (
     <Container>
       <h1>SKILLS</h1>
@@ -63,8 +63,9 @@ export default function Skills() {
             <ListItem>
               <Dot />
               <Tech>
-                Java
+                Typescript
                 <Stars>
+                  <Star />
                   <Star />
                   <Star />
                   <Star />
@@ -87,16 +88,6 @@ export default function Skills() {
                 Python
                 <Stars>
                   <Star />
-                  <Star />
-                  <Star />
-                </Stars>
-              </Tech>
-            </ListItem>
-            <ListItem>
-              <Dot />
-              <Tech>
-                PHP
-                <Stars>
                   <Star />
                   <Star />
                 </Stars>
@@ -183,7 +174,7 @@ export default function Skills() {
             <ListItem>
               <Dot />
               <Tech>
-                Materialize
+                MaterialUI
                 <Stars>
                   <Star />
                   <Star />
@@ -275,7 +266,7 @@ export default function Skills() {
             <ListItem>
               <Dot />
               <Tech>
-                Git/Github
+                Git/Github (Includind Actions)
                 <Stars>
                   <Star />
                   <Star />
@@ -298,7 +289,7 @@ export default function Skills() {
             <ListItem>
               <Dot />
               <Tech>
-                AWS
+                AWS (S3, EC2, Lambda)
                 <Stars>
                   <Star />
                   <Star />
@@ -311,6 +302,7 @@ export default function Skills() {
               <Tech>
                 CI/CD
                 <Stars>
+                  <Star />
                   <Star />
                   <Star />
                 </Stars>
