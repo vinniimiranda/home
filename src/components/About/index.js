@@ -85,14 +85,14 @@ export default function About() {
           2017, my first contact with Javascript Frameworks was Vuejs (2017).
         </p>
         <p>
-          I met React in 2018, since then I haven't stopped using it (currently
+          I met React in 2018, since then I haven`t stopped using it (currently
           I work with it every day).
         </p>
         <p>
           Recently I am studying about software architecture, to take my
           applications to a level of excellence, I believe that less is more,
           and that with the right architecture we can create better and better
-          applications that facilitate people's daily lives
+          applications that facilitate people`s daily lives
         </p>
       </p>
     </Container>

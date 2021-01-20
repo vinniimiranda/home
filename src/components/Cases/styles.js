@@ -51,7 +51,7 @@ export const ListItem = styled.div`
   align-items: center;
   justify-content: space-evenly;
   padding: 1rem;
-  
+
   transition: all cubic-bezier(0.47, 0, 0.745, 0.715) 0.3s;
   border: 4px solid transparent;
 

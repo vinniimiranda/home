@@ -116,7 +116,7 @@ const jobHistory = [
 ];
 
 export default function Experiences() {
-  const [jobs, setJobs] = useState(jobHistory);
+  const [jobs] = useState(jobHistory);
 
   return (
     <Container>
